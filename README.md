@@ -60,3 +60,7 @@ Doesn't work = any other behavior
 * Test 1: `assets/` dir and `assets/more_assets/` dir
     * `flutter build web`: Works
     * `flutter run`: Works
+
+* Test 2: `assets/more_assets/` dir and `assets/` dir (same as test 1, but reversed order)
+    * `flutter build web`: Works
+    * `flutter run`: Works

@@ -64,3 +64,7 @@ Doesn't work = any other behavior
 * Test 2: `assets/more_assets/` dir and `assets/` dir (same as test 1, but reversed order)
     * `flutter build web`: Works
     * `flutter run`: Works
+
+* Test 3: Same as Test 2, but with `Image(image: AssetImage('foo.jpg'))`
+    * `flutter build web`: Works
+    * `flutter run`: Works

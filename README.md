@@ -72,3 +72,7 @@ Doesn't work = any other behavior
 * Test 4: Test 3, but everything is moved to `graphics/` and `graphics/more_graphics/`
     * `flutter build web`: Works
     * `flutter run`: Works
+
+* Test 5: Test 4, but with _2 appended to the image names
+    * `flutter build web`: Works
+    * `flutter run`: Works

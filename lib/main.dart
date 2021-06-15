@@ -35,8 +35,9 @@ class Kittens extends StatelessWidget {
     return SingleChildScrollView(
       child: Column(
         children: [
-          Image(image: AssetImage('graphics/kitten.jpg')),
-          Image(image: AssetImage('graphics/more_graphics/another_kitten.jpg')),
+          Image(image: AssetImage('graphics/kitten_2.jpg')),
+          Image(
+              image: AssetImage('graphics/more_graphics/another_kitten_2.jpg')),
         ],
       ),
     );

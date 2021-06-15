@@ -68,3 +68,7 @@ Doesn't work = any other behavior
 * Test 3: Same as Test 2, but with `Image(image: AssetImage('foo.jpg'))`
     * `flutter build web`: Works
     * `flutter run`: Works
+
+* Test 4: Test 3, but everything is moved to `graphics/` and `graphics/more_graphics/`
+    * `flutter build web`: Works
+    * `flutter run`: Works
